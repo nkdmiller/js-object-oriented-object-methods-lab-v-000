@@ -12,8 +12,10 @@ function BoardMember(name, homeState, training){
     console.log("I like to help people.");
   };
   this.releasePressStatement = function(){
-    console.log("No, I must disagree");
+    console.log("You will see great things from Scuber.");
   };
-  
+  this.sayHi = function(){
+    console.log("You will see great things from Scuber.");
+  };
   
 }
